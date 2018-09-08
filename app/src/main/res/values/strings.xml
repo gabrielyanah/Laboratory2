@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Laboratory2</string>
+    <string name="pua">P U A</string>
+    <string name="jaqgus">J A Q and G U S</string>
+    <string name="flounder">F L O U N D E R</string>
+    <string name="title">T I T L E</string>
+    <string name="location">Location: </string>
+    <string name="distance">Distance from UST:</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+</resources>
