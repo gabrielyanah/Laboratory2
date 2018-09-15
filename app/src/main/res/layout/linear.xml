@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/pink_dark">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:contentDescription="@string/flounder"
@@ -20,7 +21,9 @@
         android:gravity="center_vertical|center_horizontal"
         android:text="@string/flounder"
         android:textColor="@android:color/black"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        app:fontFamily="@font/amatica_sc_bold"
+        tools:fontFamily="@font/amatica_sc_bold" />
 
     <TextView
         android:id="@+id/textView5"
@@ -31,7 +34,9 @@
         android:paddingStart="15dp"
         android:text="@string/location"
         android:textColor="@android:color/black"
-        android:textSize="18sp" />
+        android:textSize="24sp"
+        app:fontFamily="@font/amatica_sc_bold"
+        tools:fontFamily="@font/amatica_sc_bold" />
 
     <TextView
         android:id="@+id/textView6"
@@ -39,10 +44,12 @@
         android:layout_height="40dp"
         android:gravity="center_vertical"
         android:paddingLeft="15dp"
+        android:paddingStart="15dp"
         android:text="@string/distance"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
-        android:paddingStart="15dp" />
+        android:textSize="24sp"
+        app:fontFamily="@font/amatica_sc_bold"
+        tools:fontFamily="@font/amatica_sc_bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -55,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="90dp"
+            android:layout_marginRight="65dp"
             android:layout_marginTop="50dp"
             android:layout_weight="1"
             android:background="@android:color/darker_gray"
@@ -67,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-            android:layout_marginLeft="90dp"
+            android:layout_marginLeft="65dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="50dp"
             android:layout_weight="1"
